@@ -12,6 +12,3 @@ class Shot(CircleShape):
     
     def update(self, dt):
         self.position += self.velocity * dt
-    
-    def rotate(self, Player_rotation):
-        self.rotation = Player_rotation
